@@ -2,4 +2,4 @@
 
 RS School CV project
 
-https://MajidZanjani.github.io/rsschool-cv/cv
+https://MajidZanjani.github.io/rsschool-cv/

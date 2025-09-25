@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Majid M. M. Zanjani</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Majid M. M. Zanjani</h1>
+      <img src="./photo.png" alt="Majid Zanjani" class="avatar" />
+      <p class="role">Front-End Developer</p>
+      <nav>
+        <ul>
+          <li><a href="#summary">Summary</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#codewars">CodeWars</a></li>
+          <li><a href="#findme">Find Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+          <li>Phone: +995 551 100 642</li>
+          <li>
+            Email:
+            <a href="mailto:majidmmz1972@gmail.com">majidmmz1972@gmail.com</a>
+          </li>
+          <li>Discord: Majid Zanjani (@MajidZanjani)</li>
+          <li>Location: Tbilisi, Georgia</li>
+        </ul>
+      </section>
+
+      <section id="summary">
+        <h2>Summary</h2>
+        <p>
+          Motivated Front-End Developer with hands-on experience in building
+          responsive web applications using JavaScript, TypeScript, React, HTML,
+          and CSS. Skilled in problem-solving and eager to learn new
+          technologies. Brings additional knowledge in IT support, databases,
+          and cloud platforms, combined with strong teamwork and communication
+          skills. Looking for opportunities to grow as a developer while
+          contributing to innovative projects.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <strong>Programming:</strong> JavaScript, TypeScript, CSS, Tailwind
+            CSS, HTML
+          </li>
+          <li><strong>Frameworks:</strong> React, React Router, Angular</li>
+          <li><strong>Platforms:</strong> Windows, Linux</li>
+          <li>
+            <strong>ServiceNow:</strong> Studio, ITSM, Tables & Forms,
+            Workflows, Client & Server Scripts, Catalog Items
+          </li>
+          <li>
+            <strong>Other IT Skills:</strong> Figma, AWS, Git, CI/CD pipelines,
+            DevOps, MySQL, PostgreSQL, Kubernetes, Docker
+          </li>
+          <li>
+            <strong>Personal Skills:</strong> Reliable teammate, Communication,
+            Documentation, Eager to Learn, Detail-oriented, Project Management
+          </li>
+        </ul>
+      </section>
+
+      <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+          <li>English – B2</li>
+          <li>German – A1</li>
+          <li>Persian – Native</li>
+        </ul>
+      </section>
+
+      <section id="findme">
+        <h2>Find Me Online</h2>
+        <ul>
+          <li><a href="https://github.com/MajidZanjani/">GitHub</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/majidzanjani/">LinkedIn</a>
+          </li>
+          <li><a href="https://myportfolio-mz.netlify.app/">Portfolio</a></li>
+          <li>
+            <a href="https://github.com/MajidZanjani/myportfolio"
+              >Portfolio Source Code GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://nowlearning.servicenow.com/lxp/en/pages/nl-public-resume?id=nl_public&user=majidmmz"
+              >ServiceNow</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+
+        <article>
+          <h3>ServiceNow Developer Trainee | EPAM Campus – ServiceNow Q1-25</h3>
+          <p><em>Tbilisi, Georgia | 04/2025 – 09/2025</em></p>
+          <ul>
+            <li>
+              Completed hands-on ServiceNow training program focused on ITSM,
+              workflows, and custom application development using JavaScript.
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Front-End Developer | Synaptic Laboratories LTD</h3>
+          <p><em>Tbilisi, Georgia | 01/2021 – 04/2025</em></p>
+          <ul>
+            <li>
+              Implemented dynamic website features using JavaScript, CSS, and
+              HTML, increasing user engagement.
+            </li>
+            <li>Handled website administration and support on AWS.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="codewars">
+        <h2>CodeWars Example</h2>
+        <pre><code class="language-js">
+const Mongo = {
+  isValid: function (id) {
+    return (
+      typeof id === "string" && /^[0-9a-f]{24}$/.test(id)
+    );
+  },
+  getTimestamp: function (id) {
+    if (!this.isValid(id)) return false;
+    const timestampHex = id.slice(0, 8);
+    const timestampSeconds = parseInt(timestampHex, 16);
+    return new Date(timestampSeconds * 1000);
+  },
+};
+      </code></pre>
+        <p>
+          <a
+            href="https://www.codewars.com/kata/52fefe6cb0091856db00030e/solutions/javascript?filter=me&sort=best_practice&invalids=false"
+            >View on CodeWars</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <a href="https://github.com/MajidZanjani">GitHub 2022</a> |
+        <img src="./rs-school-logo.svg" alt="RS School Logo" class="logo" />
+        <a href="https://rs.school/courses/short-track"
+          >JS / Front-end Short Track Course</a
+        >
+      </p>
+      <p>&copy; 2025</p>
+    </footer>
+  </body>
+</html>
