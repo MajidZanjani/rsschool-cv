@@ -50,3 +50,43 @@ Motivated Front-End Developer with hands-on experience in building responsive we
 - [ServiceNow](https://nowlearning.servicenow.com/lxp/en/pages/nl-public-resume?id=nl_public&user=majidmmz)
 
 ---
+
+## Experience
+
+**ServiceNow Developer Trainee** | _EPAM Campus – ServiceNow Q1-25_  
+Tbilisi, Georgia | _04/2025 – 09/2025_
+
+- Completed hands-on ServiceNow training program focused on ITSM, workflows, and custom application development using JavaScript.
+
+**Front-End Developer** | _Synaptic Laboratories LTD_  
+Tbilisi, Georgia | _01/2021 – 04/2025_
+
+- Implemented dynamic website features using JavaScript, CSS, and HTML, increasing user engagement.
+- Handled website administration and support on AWS.
+
+---
+
+## CodeWars Example
+
+[View on CodeWars](https://www.codewars.com/kata/52fefe6cb0091856db00030e/solutions/javascript?filter=me&sort=best_practice&invalids=false)
+
+```javascript
+const Mongo = {
+  isValid: function (id) {
+    return (
+      typeof id === "string" && /^[0-9a-f]{24}$/.test(id) // exactly 24 hex chars
+    );
+  },
+
+  getTimestamp: function (id) {
+    if (!this.isValid(id)) return false;
+
+    // First 8 chars = 4 bytes = Unix timestamp (in seconds)
+    const timestampHex = id.slice(0, 8);
+    const timestampSeconds = parseInt(timestampHex, 16);
+
+    // Convert to Date (JS expects ms, so multiply by 1000)
+    return new Date(timestampSeconds * 1000);
+  },
+};
+```
