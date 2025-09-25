@@ -68,8 +68,6 @@ Tbilisi, Georgia | _01/2021 – 04/2025_
 
 ## CodeWars Example
 
-[View on CodeWars](https://www.codewars.com/kata/52fefe6cb0091856db00030e/solutions/javascript?filter=me&sort=best_practice&invalids=false)
-
 ```javascript
 const Mongo = {
   isValid: function (id) {
@@ -90,3 +88,5 @@ const Mongo = {
   },
 };
 ```
+
+[View on CodeWars](https://www.codewars.com/kata/52fefe6cb0091856db00030e/solutions/javascript?filter=me&sort=best_practice&invalids=false)
