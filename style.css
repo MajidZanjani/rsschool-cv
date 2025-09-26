@@ -58,6 +58,10 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+#cv-github-repo {
+  color: #0f8104;
+}
+
 /* Sections */
 main section {
   margin-bottom: 30px;
